@@ -3,6 +3,10 @@ uuid = "bd3c3ff1-ad01-40db-ab3f-ca12d8f2d1e9"
 authors = ["Thomas Chaffey <tlc37@cam.ac.uk> and contributors"]
 version = "0.1.0"
 
+[deps]
+LinearAlgebra = "37e2e46d-f89d-539d-b4ee-838fcccc9c8e"
+Plots = "91a5bcdd-55d7-5caf-9e0b-520d859cae80"
+
 [compat]
 julia = "1"
 

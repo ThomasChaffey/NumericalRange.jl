@@ -1,4 +1,4 @@
-# NumericalRange
+# NumericalRange.jl
 
 Provides the Julia function
 

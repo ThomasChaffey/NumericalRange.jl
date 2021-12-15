@@ -1,6 +1,6 @@
 # NumericalRange
 
-Provides the function
+Provides the Julia function
 
         nrange(A; nk = 1, thmax = 32, noplot = false)
 
@@ -16,11 +16,11 @@ This function is a direct translation of `fv.m` in Professor Nick Higham's [Matr
 based on an original routine by A. Ruhe.
 
 References:
-R. A. Horn and C. R. Johnson, Topics in Matrix Analysis, Cambridge
+* R. A. Horn and C. R. Johnson, Topics in Matrix Analysis, Cambridge
      University Press, 1991; sec. 1.5.
-A. S. Householder, The Theory of Matrices in Numerical Analysis,
+* A. S. Householder, The Theory of Matrices in Numerical Analysis,
      Blaisdell, New York, 1964; sec. 3.3.
-C. R. Johnson, Numerical determination of the field of values of a
+* C. R. Johnson, Numerical determination of the field of values of a
      general complex matrix, SIAM J. Numer. Anal., 15 (1978),
      pp. 595-602.
 

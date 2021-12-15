@@ -7,7 +7,7 @@ Provides the Julia function
 which evaluates and plots the numerical range of the
 `nk` largest leading principal submatrices of `A`, using `thmax`
 equally spaced angles in the complex plane.
-The defaults are `nk = 1` and `thmax = 32`
+The defaults are `nk = 1` and `thmax = 32`.
 The eigenvalues of `A` are plotted as `x`.  The function returns `f` and `e`, 
 where `f` is the numerical range and `e` is a vector of eigenvalues of `A`.
 Setting `noplot = true` suppresses the plot.

@@ -77,10 +77,12 @@ function nrange(B; nk=1, thmax=32, noplot=false)
         end
 
         if !noplot
-                plot(real(f), imag(f), framestyle=:origin, aspect_ratio = 1)
-                scatter!(real(e), imag(e), marker = 'x')
+                p = plot(real(f), imag(f), framestyle=:origin, aspect_ratio = 1, legend=false)
+                scatter!(p, real(e), imag(e), markershape=:x, legend=false)
+                display(p)
         end
 
         return f, e
 end
 
+end
